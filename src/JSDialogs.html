@@ -8,15 +8,27 @@
 <body>
     <h1>Demo on JavaScript Dialogs</h1>
     <script>
-        window.alert("welcome to my site");
-        alert("<h1>Hello World</h1>");
-        let a,b,res;
-        a=100;
-        b=45;
-        res=a+b;
-        alert("Sum is"+res);
+        // window.alert("welcome to my site");
+        // alert("<h1>Hello World</h1>");
+        // let a,b,res;
+        // a=100;
+        // b=45;
+        // res=a+b;
+        // alert("Sum is"+res);
 
-        alert("apple\nmango\norange");
+        // alert("apple\nmango\norange");
+
+        let name=window.prompt("enter name");
+        let age=window.prompt("enter age");
+
+        document.write(name);
+        document.write(age); 
+
+        let flag=window.confirm("you want to delete?");
+        console.log(flag);
+
+
+
     </script>
     
 </body>
