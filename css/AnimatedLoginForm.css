@@ -10,17 +10,17 @@
 
 section{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     width: 100%;
     height: 100vh;
     background: url(../img/bg.jpg);
     background-size: cover;
     background-position: center; 
-    animation: animatedBg 5s linear infinite;
+    animation: animateBg 5s linear infinite;
 }
-@keyframe animateBg{
-    100%{
+@keyframes animateBg{
+    100% {
         filter: hue-rotate(360deg);
     }
 }
@@ -49,7 +49,7 @@ h2{
 } 
 
 .input-box label{
-    /* position: absolute; */
+    
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
