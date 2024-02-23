@@ -1,1 +1,1 @@
-# JavaScript  B
+# JavaScript
